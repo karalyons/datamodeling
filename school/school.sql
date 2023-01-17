@@ -36,4 +36,10 @@ CREATE TABLE sections (
   teacher_id INTEGER
 );
 
+CREATE TABLE enrollments (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  section_id INTEGER,
+  student_id INTEGER
+);
+
 
